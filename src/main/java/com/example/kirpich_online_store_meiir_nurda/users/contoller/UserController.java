@@ -77,4 +77,11 @@ public class UserController {
     public String errorPage() {
         return "403";
     }
+
+    @GetMapping("/kirpich")
+    public String homeKirpich(Model model) {
+        String keyword = null;
+        return "main/homePage";
+    }
 }
+

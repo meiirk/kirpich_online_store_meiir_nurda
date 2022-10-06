@@ -42,7 +42,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .passwordParameter("user_password")
                 .loginProcessingUrl("/auth").permitAll()
                 .failureUrl("/login?error")
-                .defaultSuccessUrl("/profile");
+                .defaultSuccessUrl("/kirpich");
 
         http.logout()
                 .logoutUrl("/logout")
