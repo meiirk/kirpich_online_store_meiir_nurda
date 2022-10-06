@@ -49,3 +49,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .logoutSuccessUrl("/kirpich").permitAll();
     }
 }
+
